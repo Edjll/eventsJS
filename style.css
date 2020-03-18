@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d0a28b;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: 400px;
+}
+
+input, button {
+    width: 150px;
+    box-sizing: border-box;
+    margin-right: 20px;
+    border: 1px solid #6e5041;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    outline: none;
+    font-size: 1.2em;
+    background-color: #ffc3a5;
+}
+
+button {
+    cursor: pointer;
+    background-color: #dd9673;
+}
+
+span {
+    font-size: 1.2em;
+}

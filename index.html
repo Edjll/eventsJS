@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <input type="text" id="inpOninput">
+        <div>
+            <span>oninput: </span>
+            <span id="input"></span>
+        </div>
+    </div>
+    <div class="wrapper">
+        <input type="text" id="inpOnchange">
+        <div>
+            <span>onchange: </span>
+            <span id="change"></span>
+        </div>
+    </div>
+    <div class="wrapper">
+        <button id="btnOnclick">Клик</button>
+        <div>
+            <span>click: </span>
+            <span id="click"></span>
+        </div>
+    </div>
+    <div class="wrapper">
+        <input type="text" id="inpOnfocusOnblur">
+        <div>
+            <span>focus/blur: </span>
+            <span id="focusBlur"></span>
+        </div>
+    </div>
+    <div class="wrapper">
+        <input id="btnOnkeydown">
+        <div>
+            <span id="keyName">keyName: </span>
+            <span id="keyEvent"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
